@@ -3,6 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 // import home from './homeBack.jpg'
 import { MERCH } from '../Lists/MerchList';
 import MerchCard from '../Layout/MerchCard'
+
 const Merch = () => {
 
     return (
@@ -11,7 +12,7 @@ const Merch = () => {
 
                 return (
                     <>
-                        <Col className='' xs='4' key={meal.id}>
+                        <Col className='' xs='12' sm='4' style={{backgroundColor:'', width:''}} key={meal.id}>
                             <MerchCard meal={meal} />
                         </Col>
                     </>

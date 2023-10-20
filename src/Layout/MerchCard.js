@@ -2,35 +2,20 @@ import { Card, CardBody, CardImg, CardText, CardImgOverlay, CardTitle, Col, Row,
 import { Link } from 'react-router-dom';
 
 const MerchCard = ({ meal }) => {
-    const { id, image, price, name, disc } = meal;
+  const { id, image, price, name, disc } = meal;
 
-    return (
-        <Link className='NoDecorationCardText' to={"https://google.com"}>
-
-            <Card className='hoverEff CardBackgroundMerch MerchCard'
-                style={{ marginBottom: '20px',  backgroundColor: 'transparent ' }}
-            >
-
-                <CardBody className=' p-0  m-0' >
-                    {/* <Row>
-                        <Col xs='12'> */}
-                            <Row className='' style={{ height: '100%' }}>
-                            <img src={image}/>
-                            </Row>
-                        {/* </Col>
-                    </Row> */}
-                </CardBody>
-                <Row>
-                    <Col xs='8'>
-                        <CardText className='m-0 MerchPreviewText'>{name}</CardText>
-                    </Col>
-                    <Col xs='4'>
-                        <CardText className='m-0 MerchPreviewText' > {price}  </CardText>
-                    </Col>
-                </Row>
-            </Card>
-        </Link>
-    );
+  return (
+    <>
+      <Card className='hoverEff CardMove CardBackgroundMerch MerchCard cardBack'
+        style={{ marginBottom: '20px', backgroundColor: 'transparent', border: 'none', width:'90%', margin:'auto'}} >
+        <CardImg src={image} style={{ width: '100%', borderRadius: '25%' }}>
+        </CardImg>
+        <CardImgOverlay className='OverlayStart' style={{width:'100%'}}  >OUT OF STOCK</CardImgOverlay>
+        <CardText className='merchName'>{name}</CardText>
+        <CardText className='merchPrice' > {price}  </CardText>
+      </Card>
+    </>
+  );
 };
 
 export default MerchCard;

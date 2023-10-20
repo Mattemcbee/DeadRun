@@ -1,6 +1,6 @@
 body {
   background: transparent; /* Make it white if you need */
-  padding: 0 24px;
+  padding: 0 ;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -12,6 +12,37 @@ body {
 {
     text-decoration: none;
 }
+
+.OverlayStart{
+  opacity: 0;
+  text-align: center;
+  font-size: xxx-large;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* height: 100%; */
+  color: white;
+  /* position: relative; */
+}
+
+.OverlayStart:hover{
+  opacity: 1;
+  transform: translateY(-20px);
+	transition: 0.5s;
+}
+.centerBox{
+  text-align: center;
+    vertical-align: center;
+    margin-left: auto;
+    margin-right: auto;
+ /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.exampleText {
+  border: 10px solid blue;
+}
+
 .App {
   color: #72a24d;
 }
@@ -22,39 +53,93 @@ body {
   height:100vh;
   padding: 0;
   margin: 0;
+    /* background-repeat: repeat; */
   overflow-x: hidden;
 }
+.HeadBack {
+  background: linear-gradient(to bottom,  #fbf7f5,transparent);
+  /* Other CSS properties for .HeadBack */
+}
+
+
 
 .HeaderColor{
   color:	#fbc7c9;
   text-decoration: none;
 }
+.cardBack{
+  color:	#fbc7c9;
+  text-decoration: none;
+}
+.merchName{
+  color:	#fbc7c9;
+  text-decoration: none;
+  font-size: x-large;
+}
+.merchPrice{
+  color:	#fbc7c9;
+  text-decoration: none;
+  font-size: larger;
+}
+.tableFont{
+  color:	#f79094;
+  text-decoration: none;
+  font-size: medium;
+    text-decoration: none;
+}
+
 
 .LinkColor{
   color:	#fbc7c9;
+  
   text-decoration: none;
   text-align: center;
-    font-size: 10vw;
-
+  font-size: 7vw;
+  margin-bottom: 20px;
+}
+.active {
+  color: red;
+  /* Add other styles as needed */
 }
 .LinkColor:hover {
-  /* text-decoration: none; */
   color: #f79094;
-  /* background-color: red; */
+      text-decoration: none;
+}
+.HeadColor{
+  color:	#fbc7c9;
+  text-decoration: none;
+  text-align: center;
+  font-size: large;
+  margin-bottom: 0;
+}
+
+.HeadColor:hover {
+  color: #f79094;
+      text-decoration: none;
 }
 
 .TitleBig{
   color:	#fbc7c9;
+    /* color: #f79094; */
+
   text-align: center;
-  font-size: 20vw;
+  font-size: 15vw;
   margin-top: 0;
-    margin-bottom: 0;
+  margin-bottom: 10px;
+
 
 }
 .tinyTitle{
   color:	#fbc7c9;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.5vw;
+  margin-bottom: 0;
+  margin-top:10px;
+}
+.mediumTitle{
+  color:	#fbc7c9;
+  text-align: center;
+  font-size: 6vw;
 }
 .titleImage {
   content:url('./images/run.jpg');
@@ -63,4 +148,19 @@ body {
   /* text-align: center; */
   margin-left: auto;
   margin-right: auto;
+}
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  text-align: auto;
+}
+
+.video-responsive iframe {
+  /* left: 0;
+  top: 0; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }

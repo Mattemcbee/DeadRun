@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 // import Display from './Display.js';
 import Header from '../components/Header';
-import Merch from '../Layout/Merch.js';
+import Contact from '../Layout/Contact.js';
 import { Container, Col, Row, Button } from "reactstrap";
 import Footer from '../components/Footer'
 
-const MerchPage = () => {
+const ContactPage = () => {
 
   return (
 
-    <Container fluid className='HomeBack' >
+    <Container fluid className='HomeBack TitleBig'>
         <Header />
-        <h1 className='mediumTitle'>Merch page loser</h1>
-    <Merch/>
+        <h1>Contact page loser</h1>
+    <Contact/>
 
     <Footer />
     </Container>
   );
 };
 
-export default MerchPage;
+export default ContactPage;
