@@ -39,6 +39,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+.centerBox2 {
+  display: flex;
+  justify-content: center;
+font-size: xx-large;
+  align-items: center;
+  text-align: center; /* For horizontal centering within the text container */
+  /* vertical-align and margin:auto aren't necessary for centering */
+}
+
 .exampleText {
   border: 10px solid blue;
 }
