@@ -32,9 +32,9 @@ const Header = () => {
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} className="ms-5 float-start"
         style={{
-          color: 'yellow', borderRadius: "10px",
-          borderColor: '#EAC7C7', border: '5px'
-        }} ><i className="fa fa-bars fa-md dark HeadColor" >=</i>
+          color: '#fbc7c9', borderRadius: "10px",
+          borderColor: '#fbc7c9', border: '5px'
+        }} ><i className="fa fa-bars fa-md dark " ></i>
       </NavbarToggler>
       
       <Collapse isOpen={menuOpen} navbar>

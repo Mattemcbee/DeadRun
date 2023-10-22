@@ -13,39 +13,71 @@ import Run from '../images/run.jpg'
 const Footer = () => {
 
   return (
-    <Container fluid className="tinyTitle" style={{ paddingBottom: '20px', height:'100%' }}>
-      <Row>
-        <Col xs='1' style={{verticalAlign:'center' , textAlign:'center', width:'100%', padding:'auto' }}>
-          <a className=' centerBox2' style={{ color: 'inherit' }} href='https://disposedkings.netlify.app/'>
-            <i className="fab fa-facebook centerBox2" />
-          </a>
-        </Col>
-        <Col xs='1'>
-          <a className=' centerBox2' style={{ color: 'inherit' }} href='https://disposedkings.netlify.app/'>
-            <i className="fab fa-apple centerBox2" />
-          </a>
-        </Col>
-        <Col xs='6' className=""
-          style={{ margin: 'auto' }}
-        >
-          <img className="titleImage" />
-        </Col>
-        <Col xs='1'>
-          <a className=' centerBox2' style={{ color: 'inherit' }} href='https://disposedkings.netlify.app/'>
-            <i className="fab fa-instagram centerBox2" />
-          </a>
-        </Col>
-        <Col xs='1'>
-          <a className=' centerBox2' style={{ color: 'inherit' }} href='https://disposedkings.netlify.app/'>
-            <i className="fab fa-youtube centerBox2" />
-          </a>
-        </Col>
+    <>
+      <Container fluid className="tinyTitle d-block d-sm-none" style={{ paddingBottom: '20px' }}>
+        <Row>
+          <Col xs='2' className="footerIcons" >
+            <a className=' centerBox2' href='https://disposedkings.netlify.app/'>
+              <i className="fab fa-facebook centerBox2" />
+            </a>
+          </Col>
+          <Col xs='2' className="footerIcons" >
+            <a className=' centerBox2' href='https://disposedkings.netlify.app/'>
+              <i className="fab fa-apple centerBox2" />
+            </a>
+          </Col>
+          <Col xs='4' className=""
+            style={{ margin: 'auto' }}>
+            <img className="titleImage" />
+          </Col>
+          <Col xs='2' className="footerIcons" >
+            <a className=' centerBox2' href='https://disposedkings.netlify.app/'>
+              <i className="fab fa-instagram centerBox2" />
+            </a>
+          </Col>
+          <Col xs='2' className="footerIcons" >
+            <a className=' centerBox2'
+              href='https://disposedkings.netlify.app/'>
+              <i className="fab fa-youtube centerBox2" />
+            </a>
+          </Col>
+        </Row>
+      </Container>
 
+      <Container fluid className="tinyTitle d-none d-sm-block" style={{ paddingBottom: '20px' }}>
+        <Row>
+          <Col xs={{size:'1', offset:'2'}} className="footerIcons" >
+            <a className=' centerBoxSm' href='https://disposedkings.netlify.app/'>
+              <i className="fab fa-facebook " />
+            </a>
+          </Col>
+          <Col xs='1' className="footerIcons" >
+            <a className=' centerBoxSm' href='https://disposedkings.netlify.app/'>
+              <i className="fab fa-apple " />
+            </a>
+          </Col>
+          <Col xs='4' className=""
+            style={{ margin: 'auto' }}>
+            <img className="titleImage" />
+          </Col>
+          <Col xs='1' className="footerIcons" >
+            <a className=' centerBoxSm' href='https://disposedkings.netlify.app/'>
+              <i className="fab fa-instagram " />
+            </a>
+          </Col>
+          <Col xs='1' className="footerIcons" >
+            <a className=' centerBoxSm'
+              href='https://disposedkings.netlify.app/'>
+              <i className="fab fa-youtube " />
+            </a>
+          </Col>
+          <Col xs='2'/>
 
-
-      </Row>
-    </Container>
+        </Row>
+      </Container>
+    </>
   );
 };
 
 export default Footer;
+

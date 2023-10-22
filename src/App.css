@@ -1,6 +1,7 @@
 body {
-  background: transparent; /* Make it white if you need */
-  padding: 0 ;
+  background: transparent;
+  /* Make it white if you need */
+  padding: 0;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -8,44 +9,54 @@ body {
   align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
- a:link
-{
-    text-decoration: none;
+
+a:link {
+  text-decoration: none;
 }
 
-.OverlayStart{
+.OverlayStart {
   opacity: 0;
   text-align: center;
   font-size: xxx-large;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   /* height: 100%; */
   color: white;
   /* position: relative; */
 }
 
-.OverlayStart:hover{
+.OverlayStart:hover {
   opacity: 1;
   transform: translateY(-20px);
-	transition: 0.5s;
+  transition: 0.5s;
 }
-.centerBox{
+
+.centerBox {
   text-align: center;
-    vertical-align: center;
-    margin-left: auto;
-    margin-right: auto;
- /* display: flex; */
+  vertical-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
+
 .centerBox2 {
   display: flex;
   justify-content: center;
-font-size: xx-large;
+  font-size: xx-large;
   align-items: center;
-  text-align: center; /* For horizontal centering within the text container */
-  /* vertical-align and margin:auto aren't necessary for centering */
+  text-align: center;
+  color: inherit;
+}
+.centerBoxSm {
+  display: flex;
+  justify-content: center;
+  font-size: 6vh;
+  align-items: center;
+  text-align: center;
+  color: #fbc7c9;
 }
 
 .exampleText {
@@ -56,66 +67,95 @@ font-size: xx-large;
   color: #72a24d;
 }
 
-.HomeBack{
+.HomeBack {
   background-color: #fbf7f5;
-  width:100vw;
-  height:100vh;
+  width: 100vw;
+  height: 100vh;
   padding: 0;
   margin: 0;
-    /* background-repeat: repeat; */
+  /* background-repeat: repeat; */
   overflow-x: hidden;
+  overflow-y: auto;
 }
+
 .HeadBack {
-  background: linear-gradient(to bottom,  #fbf7f5,transparent);
+  background: linear-gradient(to bottom, #fbf7f5, transparent);
   /* Other CSS properties for .HeadBack */
 }
 
 
 
-.HeaderColor{
-  color:	#fbc7c9;
+.HeaderColor {
+  color: #fbc7c9;
   text-decoration: none;
 }
-.cardBack{
-  color:	#fbc7c9;
+
+.cardBack {
+  color: #fbc7c9;
   text-decoration: none;
 }
-.merchName{
-  color:	#fbc7c9;
+
+.merchName {
+  color: #fbc7c9;
   text-decoration: none;
   font-size: x-large;
+  margin-bottom: 0;
 }
-.merchPrice{
-  color:	#fbc7c9;
+
+.merchPrice {
+  color: #fbc7c9;
   text-decoration: none;
   font-size: larger;
+  margin-top: 0;
 }
-.tableFont{
-  color:	#f79094;
+
+.tableFont {
+  color: #f79094;
   text-decoration: none;
   font-size: medium;
-    text-decoration: none;
+  text-decoration: none;
 }
 
+.tableFontXs {
+  color: #f79094;
+  text-decoration: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  ;
+  font-size: larger;
+  text-decoration: none;
+}
 
-.LinkColor{
-  color:	#fbc7c9;
-  
+.LinkColor {
+  color: #fbc7c9;
+
   text-decoration: none;
   text-align: center;
   font-size: 7vw;
   margin-bottom: 20px;
 }
-.active {
-  color: red;
-  /* Add other styles as needed */
-}
+
 .LinkColor:hover {
   color: #f79094;
-      text-decoration: none;
+  text-decoration: none;
 }
-.HeadColor{
-  color:	#fbc7c9;
+
+.LinkColorXs {
+  color: #fbc7c9;
+
+  text-decoration: none;
+  text-align: center;
+  font-size: 10vw;
+  margin-bottom: 30px;
+}
+
+.LinkColorXs:hover {
+  color: #f79094;
+  text-decoration: none;
+}
+
+.HeadColor {
+  color: #fbc7c9;
   text-decoration: none;
   text-align: center;
   font-size: large;
@@ -124,40 +164,72 @@ font-size: xx-large;
 
 .HeadColor:hover {
   color: #f79094;
-      text-decoration: none;
+  text-decoration: none;
 }
 
-.TitleBig{
-  color:	#fbc7c9;
-    /* color: #f79094; */
+.TitleBig {
+  color: #fbc7c9;
+  /* color: #f79094; */
+
+  text-align: center;
+  font-size: 12vw;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.TitleBigXs {
+  color: #fbc7c9;
+  /* color: #f79094; */
 
   text-align: center;
   font-size: 15vw;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 
 
 }
-.tinyTitle{
-  color:	#fbc7c9;
+
+.tinyTitle {
+  color: #fbc7c9;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: xx-small;
   margin-bottom: 0;
-  margin-top:10px;
+  margin-top: 20px;
 }
-.mediumTitle{
-  color:	#fbc7c9;
+
+.tinyTitleXs {
+  color: #fbc7c9;
+  text-align: center;
+  font-size: medium;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.footerIcons {
+  vertical-align: center;
+  text-align: center;
+  width: 100%;
+  padding: auto;
+  /* background-color: red; */
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+.mediumTitle {
+  color: #fbc7c9;
   text-align: center;
   font-size: 6vw;
 }
+
 .titleImage {
-  content:url('./images/run.jpg');
+  content: url('./images/run.jpg');
   display: block;
-  width: 30%;
+  width: 60%;
   /* text-align: center; */
   margin-left: auto;
   margin-right: auto;
 }
+
 .video-responsive {
   overflow: hidden;
   padding-bottom: 56.25%;
