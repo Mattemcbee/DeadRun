@@ -50,6 +50,7 @@ a:link {
   text-align: center;
   color: inherit;
 }
+
 .centerBoxSm {
   display: flex;
   justify-content: center;
@@ -211,8 +212,24 @@ a:link {
   width: 100%;
   padding: auto;
   /* background-color: red; */
-  margin-top:auto;
+  margin-top: auto;
   margin-bottom: auto;
+}
+
+.contactCardFont {
+  font-size: 2vw;
+  white-space: nowrap;
+  background-color:;
+  text-align-vertical: bottom;
+  color: #f79094;
+}
+
+.centerBoxSm:hover {
+  color: #f79094;
+}
+
+.centerBox2:hover {
+  color: #f79094;
 }
 
 .mediumTitle {
@@ -220,7 +237,22 @@ a:link {
   text-align: center;
   font-size: 6vw;
 }
+.emailButtom {
+  background-color:transparent;
+  color:#f79094;
+  border-color:#f79094; 
+  border:1px solid #f79094;
+  border-radius: 4px;
+  padding:10px;
+}
+.emailButtom:hover {
+  color:#fbf7f5;
+  border-color:#fbf7f5; 
+  background-color:#fbc7c9;
 
+
+
+}
 .titleImage {
   content: url('./images/run.jpg');
   display: block;

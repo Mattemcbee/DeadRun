@@ -12,43 +12,7 @@ export const CONTACT = [
         name: 'Branden',
         disc: 'Disposed Kings is a metal band based out of Waynesboro, VA. I made this page to help them engage with their fans and keep fans informed about upcoming shows, new contact and contactandise.',
         price: '$12',
-        contact:'branden@gmail.com',
-        image: disposed,
-        image2: disposed2,
-        website: <a className='unstyleLink' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
-            Visit Website</a>
-
-    },
-    {
-        id: 1,
-        name: 'Contact2',
-        disc: 'Disposed Kings is a metal band based out of Waynesboro, VA. I made this page to help them engage with their fans and keep fans informed about upcoming shows, new contact and contactandise.',
-        price: '$20',
-        contact:'branden2@gmail.com',        
-        image: disposed,
-        image2: disposed2,
-        website: <a className='unstyleLink' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
-            Visit Website</a>
-
-    },
-    {
-        id: 2,
-        name: 'Contact 3',
-        disc: 'Disposed Kings is a metal band based out of Waynesboro, VA. I made this page to help them engage with their fans and keep fans informed about upcoming shows, new contact and contactandise.',
-        price: '$12',
-        contact:'branden3@gmail.com',
-        image: disposed,
-        image2: disposed2,
-        website: <a className='unstyleLink' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>
-            Visit Website</a>
-
-    },
-    {
-        id: 3,
-        name: 'Contact 4',
-        disc: 'Disposed Kings is a metal band based out of Waynesboro, VA. I made this page to help them engage with their fans and keep fans informed about upcoming shows, new contact and contactandise.',
-        price: '$12',
-        contact:'branden4@gmail.com',
+        contact:'deadrunva@gmail.com',
         image: disposed,
         image2: disposed2,
         website: <a className='unstyleLink' style={{ color: '#fefae0' }} href='https://disposedkings.netlify.app/'>

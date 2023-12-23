@@ -6,14 +6,10 @@ const ContactCard = ({ meal }) => {
 
   return (
     <>
-        <Col 
-        // style={{textAlign:'center'}} 
-        // className='LinkColor' 
-        >
-          <h1 style={{ fontSize:'4vw', whiteSpace: 'nowrap',backgroundColor:'', textAlignVertical:'bottom', color:'#f79094' }} >{name}: <a role='link'
-            className='btn btn-link '
+        <Col style={{textAlign:'center'}}>
+          <h1 className='contactCardFont' >{name}: <a role='link'
+            className='btn btn-link contactCardFont'
             href='mailto:heck@gmail.com'
-            style={{ fontSize:'4vw', color:'#f79094', textAlignVertical:'bottom',backgroundColor:'' }}
           >{contact}</a></h1>
         </Col>
     </>

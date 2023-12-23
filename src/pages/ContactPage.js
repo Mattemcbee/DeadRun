@@ -9,9 +9,9 @@ const ContactPage = () => {
 
   return (
 
-    <Container fluid className='HomeBack TitleBig'>
+    <Container fluid className='HomeBack '>
         <Header />
-        <h1>Contact page loser</h1>
+        <h1 className='mediumTitle'>CONTACT US</h1>
     <Contact/>
 
     <Footer />

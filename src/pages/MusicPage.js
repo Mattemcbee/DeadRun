@@ -13,7 +13,7 @@ const MusicPage = () => {
 
     <Container fluid className='HomeBack'>
       <Header />
-      <h1 className='mediumTitle'>Music page loser</h1>
+      <h1 className='mediumTitle'>MUSIC</h1>
 
       <Container fluid className=' ' >
         <Row>

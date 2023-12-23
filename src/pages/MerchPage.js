@@ -11,7 +11,7 @@ const MerchPage = () => {
 
     <Container fluid className='HomeBack' >
         <Header />
-        <h1 className='mediumTitle'>Merch page loser</h1>
+        <h1 className='mediumTitle'>MERCH</h1>
     <Merch/>
 
     <Footer />

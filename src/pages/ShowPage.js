@@ -11,7 +11,7 @@ const ShowPage = () => {
 
     <Container fluid className='HomeBack'>
         <Header />
-        <h1 className='mediumTitle'>Show page loser</h1>
+        <h1 className='mediumTitle'>UPCOMING SHOWS</h1>
     <Show/>
 
     <Footer />
